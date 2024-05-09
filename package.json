@@ -1,0 +1,30 @@
+{
+    "name": "delay",
+    "version": "1.0.0",
+    "description": "Utility for delaying execution",
+    "license": "MIT",
+    "homepage": "https://www.ashishkumarkc.com",
+    "author": "K.C.Ashish Kumar",
+    "bin": {
+        "delay": "index.js",
+        "pause": "index.js",
+        "defer": "index.js",
+        "dosleep": "index.js",
+        "dowait": "index.js"
+    },
+    "scripts": {
+        "test": "delay 3 && echo Hello"
+    },
+    "keywords": [
+        "delay",
+        "wait",
+        "sleep",
+        "pause",
+        "defer"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kcak11/delay.git"
+    }
+}
